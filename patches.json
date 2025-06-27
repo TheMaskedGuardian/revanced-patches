@@ -1,0 +1,44 @@
+{
+  "name": "TheMaskedGuardian Patch Pack",
+  "description": "Custom ReVanced patches for AnyTracker, Period Calendar, and Video Compressor.",
+  "homepage": "https://github.com/TheMaskedGuardian/revanced-patches",
+  "versions": [
+    {
+      "version": "v6.00.9",
+      "url": "https://github.com/TheMaskedGuardian/revanced-patches/releases/download/v6.00.9/patches-6.00.9.rvp",
+      "integrity": "7a0dafe07833c127274d2184d81d67fc994520be50363f4f928f88586bd51f81",
+      "patches": [
+        {
+          "name": "unlock-platinum",
+          "description": "Unlocks platinum plan features.",
+          "compatiblePackages": [
+            {
+              "name": "com.shervinkoushan.anyTracker",
+              "versions": ["*"]
+            }
+          ]
+        },
+        {
+          "name": "unlock-pro",
+          "description": "Unlocks pro features.",
+          "compatiblePackages": [
+            {
+              "name": "com.video_converter.video_compressor",
+              "versions": ["*"]
+            }
+          ]
+        },
+        {
+          "name": "unlock-premium",
+          "description": "Unlocks premium features.",
+          "compatiblePackages": [
+            {
+              "name": "com.lbrc.PeriodCalendar",
+              "versions": ["*"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
